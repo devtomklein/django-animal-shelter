@@ -1,0 +1,16 @@
+<html>
+	<head>
+	</head>
+	<body>
+
+		{{ currentUrl }}
+		{{ profile_name }}
+		<form method="post" action="./save">
+			{% csrf_token %} 
+			<textarea name="name" rows="1" cols="30"> {{ profile_name }}</textarea>
+			<textarea name="description" rows="20" cols="60"> {{ profile_description }</textarea>
+			<textarea name="status" rows="1" cols="30"> {{ profile_status }}</textarea>
+			<input type="submit" value="Save Profile"/>
+		</form>		
+	</body>
+</html>
