@@ -1,11 +1,11 @@
-# django-spa
+# django-animal-shelter
 Django website template for animal shelters.
 
 ## what is it?
 This is just a training/showcase dynamic website made in as the code I wrote in my previous positions belongs to my former employers and thus I can't easily share it.
 Or at least without heavily pruning it. /!\ Obviously it is not ready for production at all /!\
 
-## why django-SPA?
+## why spa as a project name?
 It comes from the name of the main animal protection association in France, the "Société Protectrice des Animaux" 
 
 ## branches and evolution
